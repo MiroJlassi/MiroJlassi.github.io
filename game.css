@@ -84,7 +84,7 @@ a{
 }
 
 .element {
-    position: relative; /* Required for absolute positioning of pseudo-element */
+    position: relative;
     color: white;
     height: 18%;
     width: 100%;
@@ -104,7 +104,7 @@ a{
     height: 80%;
     border-radius: 4px;
     position: relative;
-    z-index: 1; /* Ensure the image stays above the pseudo-element */
+    z-index: 1;
 }
 
 
