@@ -1,0 +1,27 @@
+.portfolio {
+  overflow: hidden;
+}
+
+
+.cover-images {
+  display: flex;
+  animation: slideLeft 5s infinite; /* Adjust timing as needed */
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.cover-images img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+
