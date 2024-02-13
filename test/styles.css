@@ -1,4 +1,6 @@
-.image-container img {
-    width: 300px;
-    height: 300px;
+.botna {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
 }

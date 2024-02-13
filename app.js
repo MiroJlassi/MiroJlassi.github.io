@@ -1,6 +1,6 @@
-const imageUrls = ["zelda.jpg", "OCTOPATH.jpg","mario.jpg","death stranding.jpg"];
+const imageUrls = ["zelda.jpg", "OCTOPATH.jpg","mario.jpg","death stranding.jpg","bigHero.jpg"];
 const imagee = document.getElementById("ima");
-let x = 0;
+let x = -1;
 
 function changeImage() {
     imagee.style.transition = "opacity 1s ease, transform 1s ease";

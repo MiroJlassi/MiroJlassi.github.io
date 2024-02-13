@@ -3,12 +3,12 @@ let currentIndex = 0;
 
 function selected() {
     if (currentIndex > 0) {
-        elements[currentIndex - 1].style.color = "";
+        elements[currentIndex - 1].style.backgroundColor = "";
     } else {
-        elements[elements.length - 1].style.color = "";
+        elements[elements.length - 1].style.backgroundColor = "";
     }
 
-    elements[currentIndex].style.color = "red";
+    elements[currentIndex].style.backgroundColor = "rgba(255,255,255,0.05)";
     currentIndex = (currentIndex + 1) % elements.length;
 }
 

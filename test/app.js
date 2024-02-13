@@ -35,7 +35,26 @@ changeImage();
 setInterval(changeImage, 3000);*/
 
 
-const imageUrls = ["1.jpg", "2.jpg", "3.jpg"];
+
+let count = 0;
+
+function increment() {
+    count++;
+    console.log("Count:", count);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*const imageUrls = ["1.jpg", "2.jpg", "3.jpg"];
 const imagee = document.getElementById("ima");
 let currentIndex = 0;
 
@@ -59,5 +78,7 @@ function changeImage() {
 
 changeImage();
 
-setInterval(changeImage, 3000);
+setInterval(changeImage, 8000);*/
+
+
 
